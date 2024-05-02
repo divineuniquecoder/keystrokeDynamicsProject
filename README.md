@@ -3,59 +3,57 @@ Repository for the final year project on biometric behavioural continuous user a
 
 Project Title: Continuous User Authentication System
 Overview
-This repository contains the code and resources for a Continuous User Authentication (CUA) system that utilizes keystroke dynamics and a Support Vector Machine (SVM) model. The project is designed to validate the functionality, reliability, and security of authentication processes under various scenarios.
+This repository contains the code and resources for a Continuous User Authentication (CUA) system that utilises keystroke dynamics and a Support Vector Machine (SVM) model. The project is designed to validate the functionality, reliability, and security of authentication processes under various scenarios.
+
 Repository Structure
+
 Keystrokes Data Collection Implementation – "keystrokesMetrics"
 Core Functionality Files:
-•	mainApp.py: The main application file integrating all system components.
-•	sessionManager.py: Manages user sessions and handles session timeouts.
-•	taskManager.py: Coordinates tasks within the system.
-•	userInterface.py: Manages user interface interactions.
-•	authenticationManager.py: Manages the authentication processes.
-•	dataCollector.py: Gathers and organizes user data for processing.
-Purpose:
-Manage the main application logic, user session handling, task coordination, user interactions, and data collection.
+1.	mainApp.py: The main application file integrating all system components.
+2.	sessionManager.py: Manages user sessions and handles session timeouts.
+3.	taskManager.py: Coordinates tasks within the system.
+4.	userInterface.py: Manages user interface interactions.
+5.	authenticationManager.py: Manages the authentication processes.
+6.	dataCollector.py: Gathers and organizes user data for processing.
+Purpose: Manage the main application logic, user session handling, task coordination, user interactions, and data collection.
+
 Database and Configuration Management Files:
-•	dataBase.py: Manages database operations.
-•	configManager.py: Manages application configurations stored in config.json.
-Purpose:
-Handle all database interactions and configuration settings management.
-Error Handling and Logging Files:
-•	errorHandler.py: Manages and logs errors throughout the system.
-Purpose:
-Provide robust error handling and system-wide logging capabilities.
+1.	dataBase.py: Manages database operations.
+2.	configManager.py: Manages application configurations stored in config.json.
+Purpose: Handle all database interactions and configuration settings management.
+
+Error Handling and Logging Files (errorHandler.py): Manages and logs errors throughout the system.
+Purpose: Provide robust error handling and system-wide logging capabilities.
+
 User and Task Management Files:
-•	imporTALLUSERS.py, specificuser.py: Scripts for managing user data.
-•	specificTask.py: Manages specific tasks within the system.
-•	userALL.csv: Contains user data for the system.
-Purpose:
-Manage user and task-related data and operations.
+1.	imporTALLUSERS.py, specificuser.py: Scripts for managing user data.
+2.	specificTask.py: Manages specific tasks within the system.
+3.	userALL.csv: Contains user data for the system.
+Purpose: Manage user and task-related data and operations.
+
 Firebase Integration Files:
-•	akinprojectsecurity-firebase-adminsdk-useyours.json: Contains Firebase service account credentials.
-•	firebaseImportSPECIFICUSERS.py: Manages the import of specific user data via Firebase.
-Purpose:
-Securely integrate and manage Firebase services.
-Run the application:
-python mainApp.py
+1.	akinprojectsecurity-firebase-adminsdk-useyours.json: Contains Firebase service account credentials.
+2.	firebaseImportSPECIFICUSERS.py: Manages the import of specific user data via Firebase.
+Purpose: Securely integrate and manage Firebase services.
+Run the application: python mainApp.py
 
 
 
 SVM Implementation and Model Testing – "modelTraining"
 Files:
-•	theSVM.py, onewithSVM.py: Implement and execute the SVM model.
-•	forTesting.py: Orchestrates tests against the SVM models.
-•	bigramcounts.py: Generates bi-gram counts, essential for feature extraction.
-•	statisticsrawdatauserALL.py: Provides statistical analysis of raw data.
-•	flighttimestat.py: Analyses keystroke flight times.
-Purpose:
-Develop, test, and refine the SVM-based authentication to enhance security and accuracy.
+1.	theSVM.py, onewithSVM.py: Implement and execute the SVM model.
+2.	forTesting.py: checks for user data validation
+3.	bigramcounts.py: Generates bi-gram counts, essential for feature extraction.
+4.	statisticsrawdatauserALL.py: Provides statistical analysis of raw data.
+5.	flighttimestat.py: Analyses keystroke flight times.
+Purpose: Develop, test, and refine the SVM-based authentication to enhance security and accuracy.
+
 Data Preparation and Analysis Files:
-•	metricsCalculation.py: Calculates and analyses keystroke metrics.
-•	dataCollector.py: Gathers and organizes user data during testing.
-Purpose:
-Prepare and analyse data to support SVM model training and testing.
-Run the application:
-Each Python file can be run individually
+1.	metricsCalculation.py: Calculates and analyses keystroke metrics.
+2.	dataCollector.py: Gathers and organises user data during testing.
+Purpose: Prepare and analyse data to support SVM model training and testing.
+
+Run the application: Each Python file can be run individually
 
 Testing Folder Overview - forLiveCUA_Test
 Purpose:
@@ -82,6 +80,4 @@ Configuration and Firebase Integration:
 8.	errorHandler.py - Manages and logs errors throughout the testing process.
 9.	importData.py - Facilitates the importation of necessary data sets for testing.
 10.	mainApp.py - The main application file that integrates all components of the system for full-scale system testing.
-Run the application:
-python mainApp.py
-
+Run the application: python mainApp.py
