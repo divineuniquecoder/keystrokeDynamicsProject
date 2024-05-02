@@ -1,0 +1,11 @@
+{
+    "apiEndpoint": "https://your-api-endpoint.com/api",
+    "enableFeatureX": true,
+    "maxRetryCount": 5,
+    "loggingLevel": "info",
+    "firebaseCredentialsPath": "useyourownpath",
+    "firebase": {
+        "databaseUrl": "https://your-database-url.firebaseio.com",
+        "storageBucket": "your-storage-bucket.appspot.com"
+    }
+}
