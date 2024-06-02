@@ -89,3 +89,6 @@ The report titled "CUA_TheProject.docx" is included in this repository. This doc
 2.  Development of a machine learning model using Support Vector Machine algorithms and keystroke dynamics.
 3.  Detailed evaluation of the model's performance, focusing on accuracy, efficiency, and user privacy.
 4.  Future enhancements for continuous user authentication, including the adoption of deep learning techniques and multi-factor authentication.
+
+Feedback
+You can view the detailed feedback received for this project, highlighting the strengths and areas for improvement as evaluated by the supervisor: Feedback.docx.
