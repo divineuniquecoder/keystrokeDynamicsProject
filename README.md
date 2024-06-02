@@ -81,3 +81,11 @@ Configuration and Firebase Integration:
 9.	importData.py - Facilitates the importation of necessary data sets for testing.
 10.	mainApp.py - The main application file that integrates all components of the system for full-scale system testing.
 Run the application: python mainApp.py
+
+Report
+The report titled "CUA_TheProject.docx" is included in this repository. This document provides an in-depth analysis of the project's research, methodology, and findings. It includes:
+
+1.  Investigation of traditional authentication methods and their limitations.
+2.  Development of a machine learning model using Support Vector Machine algorithms and keystroke dynamics.
+3.  Detailed evaluation of the model's performance, focusing on accuracy, efficiency, and user privacy.
+4.  Future enhancements for continuous user authentication, including the adoption of deep learning techniques and multi-factor authentication.
